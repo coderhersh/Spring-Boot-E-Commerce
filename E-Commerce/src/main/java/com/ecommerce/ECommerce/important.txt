@@ -1,0 +1,40 @@
+/get-product-list                           ->  getProductList
+/get-product/id/{id}                        ->  getProductById
+/get-product/name/{name}                    ->  getProductByName
+/get-product/description/{description}      ->  getProductByDescription
+/get-product/quantity/{quantity}            ->  getProductByQuantity
+/get-product/price/{price}                  ->  getProductByPrice
+/add-product                                ->  addProduct
+/update-product/id/{id}                     ->  updateProduct
+/delete-product/id/{id}                     ->  removeProductById
+/delete-product/name/{name}                 ->  removeProductByName
+/delete-product/description/{description}   ->  removeProductByDescription
+/delete-product/quantity/{quantity}         ->  removeProductByQuantity
+/delete-product/price/{price}               ->  removeProductByPrice
+
+
+
+findByPriceGreaterThanX                     DONE
+findByPriceGreaterThanEqualToX              DONE
+findByPriceLesserThanX                      DONE
+findByPriceLesserThanEqualToX               DONE
+findByPriceBetweenXAndY                     DONE
+sortByNameAscending                         DONE
+sortByNameDescending                        DONE
+sortByPriceAscending                        DONE
+sortByPriceDescending                       DONE
+sortByQuantityAscending                     DONE
+sortByQuantityDescending                    DONE
+sortByAddedDateAscending                    DONE
+sortByAddedDateDescending                   DONE
+showByAddedDateBetweenXAndY                 DONE
+sortByModifiedDateAscending                 DONE
+sortByModifiedDateDescending                DONE
+showByModifiedDateBetweenXAndY              DONE
+searchNameOfProductsByCharacters            DONE
+searchDescriptionOfProductsByCharacters     DONE
+removeByName                                DONE
+removeByDescription                         DONE
+removeByQuantity                            DONE
+removeByPrice                               DONE
+
